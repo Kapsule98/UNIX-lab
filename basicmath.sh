@@ -1,11 +1,11 @@
 case $3 in
 
- "+") echo  $(( $1 + $2 ));;
+ "+") echo $(echo $1 + $2 | bc) ;;
 
- "-") echo  $(( $1 - $2 ));;
+ "-") echo $(echo $1 - $2 | bc) ;;
  
- "*") echo  $(( $1 * $2 ));;
+ "*") echo $(echo $1 \* $2 | bc) ;;
  
- "/") echo  $(( $1 / $2 ));;
+ "/") echo $(echo $1 / $2 | bc) ;;
 
 esac
