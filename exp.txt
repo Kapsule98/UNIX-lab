@@ -1,0 +1,8 @@
+5)date time username and directory
+6)print number in reverse order
+7)print sum of all digits
+8)perform real number calculation in linux
+9)5.12+2.5
+10)a=5.66 b = 8.67 c = a+b
+11)check if given file exists
+12)print contents from given line number (no of lines to print given)
